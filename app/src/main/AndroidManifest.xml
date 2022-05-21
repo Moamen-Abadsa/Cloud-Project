@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.study_room">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Study_room">
+        <service android:name="com.example.realTime_fcm.FirebaseService"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"></action>
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".Activities.Activities.Lec_or_Std"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Chat_Teacher"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.View_Lecture"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Search"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.All_lectures_for_std"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.All_lectures_for_lec"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.All_courses_for_student"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Chat_Student"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.All_student"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.All_teachers"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.manipulate_operations"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Edit_lecture"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Edit_course"
+            android:exported="true" />
+
+        <activity
+            android:name=".Activities.Activities.All_courses_for_lecturer"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Add_Lecture"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Add_Course"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.All_Users"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Users_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.View_course"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Selected_courses"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Hidden_courses"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Registered_courses"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Student_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Lecturer_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Lecturer_Sign_up"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Student_Sign_up"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Lecturer_Sign_in"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Student_Sign_in"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Sign_up"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.Sign_in"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.signin_or_signup"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.SplashScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

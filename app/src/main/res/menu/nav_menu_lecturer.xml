@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard_lecturer"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/all_users_lec_menu_item"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="All Users" />
+    <item
+        android:id="@+id/all_courses_lec_menu_item"
+        android:icon="@drawable/ic_list"
+        android:title="All Courses" />
+    <item
+        android:id="@+id/Add_menu_item"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="Add Course" />
+    <item
+        android:id="@+id/hide_menu_item"
+        android:icon="@drawable/hidden"
+        android:title="Hidden courses" />
+    <item
+        android:id="@+id/all_std"
+        android:icon="@drawable/student2"
+        android:title="All Student" />
+    <item
+        android:id="@+id/all_lec"
+        android:icon="@drawable/teacher"
+        android:title="All Lecturers" />
+</menu>

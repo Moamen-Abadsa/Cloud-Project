@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Activities.Add_Lecture">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Add Lecture"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_name_lecture"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Name of course"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <EditText
+        android:id="@+id/edit_desc_lecture"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="description"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name_lecture" />
+
+    <EditText
+        android:id="@+id/edit_assignment_lecture"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Click to add assignment"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_desc_lecture" />
+
+    <EditText
+        android:id="@+id/add_video"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:hint="Click to add Video"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_assignment_lecture" />
+
+    <Button
+        android:id="@+id/submitt_add_lec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/my_shape"
+        android:text="Submitt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_assignment_lecture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

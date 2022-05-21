@@ -1,0 +1,76 @@
+[debug] [2022-05-12T14:53:33.321Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T14:53:33.322Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-12T14:53:33.323Z] CLI Version:   10.9.2
+[debug] [2022-05-12T14:53:33.323Z] Platform:      win32
+[debug] [2022-05-12T14:53:33.323Z] Node Version:  v17.2.0
+[debug] [2022-05-12T14:53:33.328Z] Time:          Thu May 12 2022 17:53:33 GMT+0300 (Eastern European Summer Time)
+[debug] [2022-05-12T14:53:33.328Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T14:53:33.373Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-12T14:53:33.373Z] > authorizing via signed-in user (moamenabadsa2001@gmail.com)
+[debug] [2022-05-12T14:53:33.373Z] [iam] checking project myfirestore-6c090 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2022-05-12T14:53:33.375Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions [none]
+[debug] [2022-05-12T14:53:33.375Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2022-05-12T14:53:34.546Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions 200
+[debug] [2022-05-12T14:53:34.546Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2022-05-12T14:53:34.547Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-05-12T14:53:34.547Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-05-12T14:53:35.494Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-05-12T14:53:35.495Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'myfirestore-6c090'...
+[info] 
+[info] i  deploying storage, functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[debug] [2022-05-12T14:54:36.803Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T14:54:36.804Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-12T14:54:36.805Z] CLI Version:   10.9.2
+[debug] [2022-05-12T14:54:36.805Z] Platform:      win32
+[debug] [2022-05-12T14:54:36.805Z] Node Version:  v17.2.0
+[debug] [2022-05-12T14:54:36.806Z] Time:          Thu May 12 2022 17:54:36 GMT+0300 (Eastern European Summer Time)
+[debug] [2022-05-12T14:54:36.806Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T14:54:36.854Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-12T14:54:36.854Z] > authorizing via signed-in user (moamenabadsa2001@gmail.com)
+[debug] [2022-05-12T14:54:36.854Z] [iam] checking project myfirestore-6c090 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2022-05-12T14:54:36.856Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions [none]
+[debug] [2022-05-12T14:54:36.857Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2022-05-12T14:54:37.906Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions 200
+[debug] [2022-05-12T14:54:37.906Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2022-05-12T14:54:37.906Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-05-12T14:54:37.906Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-05-12T14:54:38.755Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-05-12T14:54:38.755Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'myfirestore-6c090'...
+[info] 
+[info] i  deploying storage, functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[debug] [2022-05-12T15:00:11.359Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T15:00:11.360Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-12T15:00:11.360Z] CLI Version:   10.9.2
+[debug] [2022-05-12T15:00:11.360Z] Platform:      win32
+[debug] [2022-05-12T15:00:11.360Z] Node Version:  v17.2.0
+[debug] [2022-05-12T15:00:11.361Z] Time:          Thu May 12 2022 18:00:11 GMT+0300 (Eastern European Summer Time)
+[debug] [2022-05-12T15:00:11.362Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T15:00:11.406Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-12T15:00:11.407Z] > authorizing via signed-in user (moamenabadsa2001@gmail.com)
+[debug] [2022-05-12T15:00:11.407Z] [iam] checking project myfirestore-6c090 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2022-05-12T15:00:11.408Z] > refreshing access token with scopes: []
+[debug] [2022-05-12T15:00:11.408Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-12T15:00:11.782Z] <<< HTTP RESPONSE 200 {"date":"Thu, 12 May 2022 15:00:11 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-12T15:00:11.793Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions [none]
+[debug] [2022-05-12T15:00:11.793Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2022-05-12T15:00:12.802Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions 200
+[debug] [2022-05-12T15:00:12.803Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/myfirestore-6c090:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2022-05-12T15:00:12.803Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-05-12T15:00:12.803Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-05-12T15:00:13.771Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-05-12T15:00:13.771Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/myfirestore-6c090/serviceAccounts/myfirestore-6c090@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'myfirestore-6c090'...
+[info] 
+[info] i  deploying storage, functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint

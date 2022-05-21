@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Activities.Sign_in">
+
+    <ImageView
+        android:id="@+id/lecturer_sign_in"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lecturer_sign_in_tv"
+        app:layout_constraintTop_toBottomOf="@+id/student_sign_in_tv"
+        app:srcCompat="@drawable/lecture_2" />
+
+    <ImageView
+        android:id="@+id/student_sign_in"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="125dp"
+        app:layout_constraintBottom_toTopOf="@+id/lecturer_sign_in_tv"
+        app:layout_constraintEnd_toStartOf="@+id/student_sign_in_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/student" />
+
+    <TextView
+        android:id="@+id/student_sign_in_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="122dp"
+        android:text="Student"
+        android:textColor="#44c7b6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lecturer_sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/student_sign_in"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lecturer_sign_in_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="142dp"
+        android:text="Lecturer"
+        android:textColor="#5fcdff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lecturer_sign_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_sign_in" />
+
+    <TextView
+        android:id="@+id/signnnnnnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Sign in as a student or a lecturer ?"
+        android:textColor="@color/MyYellow3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">@color/MyYellow2</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="MyYellow2">#fcbc27</color>
+    <color name="MyYellow1">#fccd5e</color>
+    <color name="MyYellow3">#ffb404</color>
+    <color name="MyGreen">#6ec17d</color>
+    <color name="MyRed">#ff5c5c</color>
+    <color name="MySkyBlue2">#30b6ff</color>
+    <color name="MySkyBlue1">#5fcdff</color>
+    <color name="MyGreen2">#44c7b6</color>
+    <color name="MyBage">#ffe2e2</color>
+    <color name="MyDarkBage">#ffefee</color>
+    <color name="MyBlue">#446cbc</color>
+</resources>
